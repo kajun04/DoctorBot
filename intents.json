@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": [ "Salut" ,  "Comment allez-vous" ,  "Quelqu'un est-il là?" ,  "Bonjour" ,  "Bonjour" ],
+         "responses":[ "Bonjour, merci de votre visite" ,  "Ravi de vous revoir" ,  "Bonjour, comment puis-je vous aider?" ],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns":["Au revoir", "A plus tard", "Au revoir"],
+         "responses": ["A plus tard, merci de votre visite", "Bonne journée", "Au revoir! Revenez bientôt."],
+          "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["Merci", "Merci", "C'est utile"],
+         "responses": ["Heureux de vous aider!", "À tout moment!", "Avec plaisir"],
+          "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["Quelles heures êtes-vous ouvert?" ,  "Quelles sont vos heures?" ,  "Quand êtes-vous ouvert?"  ],
+         "responses": [ "Nous sommes ouverts tous les jours de 9 h à 21 h " ,  "Nos heures d'ouverture sont de 9 h à 21 h tous les jours" ],
+          "context_set": ""
+        },
+        {"tag": "payments",
+         "patterns": ["Acceptez-vous les cartes de crédit?", "Acceptez-vous Mastercard?", "Êtes-vous en espèces uniquement?" ],
+         "responses": ["Nous acceptons les cartes VISA, Mastercard et AMEX", "Nous acceptons la plupart des principales cartes de crédit"],
+          "context_set": ""
+        },
+        {"tag": "opentoday",
+         "patterns": ["Êtes-vous ouvert aujourd'hui?", "Quand ouvrez-vous aujourd'hui?", "Quelles sont vos heures aujourd'hui?"],
+         "responses": ["Nous sommes ouverts tous les jours de 9 h à 21 h", "Nos heures d'ouverture sont de 9 h à 21 h tous les jours"],
+          "context_set": ""
+        },
+        {"tag": "age",
+         "patterns":["quel âge", "quel âge a DoctorBot", "quel est votre age", "quel age avez-vous", "age?"],
+         "responses": ["J'ai l'age d'un docteur très experimenté !", "d'un docteur très experimenté!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["quel est votre nom", "comment dois-je vous appeler", "quel est votre nom?"],
+         "responses": ["Vous pouvez m'appeler DoctorBot.", "Je suis DoctorBot!", "Je suis DoctorBot alias Doctor Bot."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Je voudrais acheter quelque chose", "ce qui est sur le menu", "que recommandez-vous?", "est-ce que je pourrais manger quelque chose"],
+         "responses": ["Nous ne vendons pas des nourritures mais des produits pharmaceutique", "Il y a que des produits pharmaceutique au menu !"],
+         "context_set": ""
+        }
+
+}
